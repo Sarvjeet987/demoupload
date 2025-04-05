@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebTech</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div style="min-height: 100vh;" class="bg-success">
+        <!-- section 1 -->
+        <nav class="navbar navbar-expand-lg navbar bg-success" id="nav">
+            <div class="container">
+                <a class="navbar-brand" href="#nav"><img src="/imges/logo (2).png" alt="logo" height="70px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
+                        <li class="nav-item ms-3" id="hy">
+                            <a class="nav-link nav-link" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item dropdown ms-3 ">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Service
+                            </a>
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item" href="#services">Web Design & Development</a></li>
+                            </ul>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="/code/portfolio.html" target="_blank">Portfolio</a>
+                        </li>
+                        <li class="nav-item nav_Item ms-3">
+                            <a class="nav-link" href="/code/contact.html" target="_blank">Contact</a>
+                        </li>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn btn-outline-success Navbtn" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" type="button">Call</button>
+
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Call Me !</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <a href="tel:+01234567891"><button type="button" class="btn bg-danger text-light
+                                            ">CALL NOW</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--  section 2(home) -->
+        <div class="container">
+            <div class="container-fluid">
+
+                <div class="section2" id="home">
+                    <div class="section2Left" data-aos="fade-down" data-aos-duration="2000">
+                        <h2>Web Solutions That <br> Deliver Results</h2>
+                        <p>We offer expert web development services, creating modern, responsive <br> websites tailored
+                            to your business needs. From design to launch, we <br>deliver solutions that drive growth
+                            and success.</p>
+                        <a href="/code/contact.html" target="_blank"><button>Contact Now</button></a>
+                    </div>
+                    <div class="section2Right">
+                        <div class="disktop_Frame overflow-hidden">
+                            <div class="disktop_screen" data-aos="zoom-in" data-aos-duration="1000">
+                                <img src="/imges/bg_disktop-3.webp" alt="db">
+                            </div>
+                        </div>
+                        <div class="Phone_frame">
+                            <div class="phone_screen">
+                                <img src="/imges/mobile-1.webp" alt="db" data-aos="zoom-in-up" data-aos-duration="2000">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- end home -->
+    </div>
+    <!-- section 3 -->
+    <div class="container sec3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 section3left" id="about">
+                    <h2>Your Trusted Partner in Web Development</h2>
+                    <p>At Web Tech, we specialize in creating websites that do more than just look good—they deliver
+                        results. Founded in the india, our mission is to empower businesses of all sizes with
+                        innovative, reliable, and scalable digital solutions. With a team of experienced developers,
+                        designers, and strategists, we pride ourselves on building lasting relationships with our
+                        clients by understanding their unique needs and exceeding expectations.</p>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3 mb-sm-0 missioncard">
+                            <div class="card mission">
+                                <div class="card-body">
+                                    <a href="#" class="btn btn-primary missionBtn">Mission</a>
+                                    <h5 class="card-title missionh5">Empowering Businesses Online</h5>
+                                    <p class="card-text missionp">With supporting text below as a natural lead-in to
+                                        additional content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 visitioncard">
+                            <div class="card vision">
+                                <div class="card-body">
+                                    <a href="#" class="btn btn-primary visionBtn">Vission</a>
+                                    <h5 class="card-title visionh5 ">Shaping the Future of Digital Success</h5>
+                                    <p class="card-text missionp">Our vision is to become a leading partner for small
+                                        and medium-sized businesses in their digital transformation journey.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 right" data-aos="fade-up" data-aos-duration="3000">
+                    <img src="/imges/S3.webp" alt="section3 img" class="rightIG">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section 4 -->
+    <section class="section4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Why Choose Us?</h2>
+                    <p>We combine creativity, expertise, and a client-focused approach to deliver web solutions that
+                        drive real results. Here’s what sets us apart:</p>
+                    <a href="/code/contact.html" target="_blank"><button type="button" class="button section4BTN">Get in
+                            Touch</button></a>
+                </div>
+                <div class="col-md-6 section4Right" data-aos="fade-down" data-aos-duration="1000">
+
+                    <div class="card mb-3 boderRadius" style="max-width: 540px;">
+                        <div class="row g-0 section4Card1">
+                            <div class="col-md-4">
+                                <img src="/imges/01.png" class="img-fluid rounded-start section4card1IMG" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Expert Team</h5>
+                                    <p class="card-text">We prioritize understanding your goals and challenges to
+                                        deliver solutions that truly align with your business objectives.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 boderRadius" style="max-width: 540px;">
+                        <div class="row g-0 section4Card1">
+                            <div class="col-md-4">
+                                <img src="/imges/02.webp" class="img-fluid rounded-start section4card1IMG" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Client-Centric Approach</h5>
+                                    <p class="card-text">We prioritize understanding your goals and challenges to
+                                        deliver solutions that truly align with your business objectives.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 boderRadius" style="max-width: 540px;">
+                        <div class="row g-0 section4Card1">
+                            <div class="col-md-4">
+                                <img src="/imges/03.png" class="img-fluid rounded-start section4card1IMG" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ongoing Support</h5>
+                                    <p class="card-text">From launch to maintenance, we provide continuous support to
+                                        keep your website secure, updated, and performing at its best</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- section 5 -->
+
+    <section>
+        <div class="container">
+            <div class="container-fluid">
+                <div class="Section5top">
+                    <h2>Tailored Web Solutions <br>for Your Brand</h2>
+                    <p>We offer a comprehensive range of web development and design services <br> tailored to meet your
+                        business goals.</p>
+                </div>
+                <div class="bottom">
+                    <div class="bottomTop" data-aos="fade-up">
+                        <div class="box1" style="background-color: #0274be; color: #fff;">
+                            <img src="/imges/box1.png" width="100" height="100" alt="img1">
+                            <h3 style="margin-top: 20px;">UX / UI Design</h3>
+                            <p style="margin-top: 20px;">We create engaging, intuitive, and innovative designs that
+                                prioritize user experience while making a lasting impact. Our focus is on delivering a
+                                seamless, memorable, and enjoyable journey for your visitors.</p>
+                        </div>
+                        <div class="box1" style="background-color: #61CE70;">
+                            <img src="/imges/box2.png" width="100" height="100" alt="img2">
+                            <h3 style="margin-top: 20px;">Web Design</h3>
+                            <p style="margin-top: 20px;">We design visually stunning, innovative websites that are
+                                user-friendly and easy to navigate. Our team ensures your site perfectly reflects your
+                                brand and offers a seamless, engaging experience for all visitors.</p>
+                        </div>
+                        <div class="box1" style="background-color: #EA9423;">
+                            <img src="/imges/box3.png" width="100" height="100" alt="img3">
+                            <h3 style="margin-top: 20px;">Web Development</h3>
+                            <p style="margin-top: 20px;">Our developers create high-performance websites with custom
+                                features that ensure functionality and a seamless user experience. We deliver results
+                                that exceed expectations and foster business growth.</p>
+                        </div>
+                    </div>
+                    <div class="bottomBottom" data-aos="fade-up">
+                        <div class="box2" style="background-color: #EA9423;">
+                            <img src="/imges/box4.png" width="100" height="100" alt="img4">
+                            <h3 style="margin-top: 20px;">Website Maintenance</h3>
+                            <p style="margin-top: 20px;">Regular website maintenance keeps your site secure, fast, and
+                                fully functional. We ensure your site is consistently updated, securely maintained, and
+                                optimized for peak performance, providing the best experience.</p>
+                        </div>
+                        <div class="box2" style="background-color: #0274be;">
+                            <img src="/imges/box5.png" width="100" height="100" alt="img5">
+                            <h3 style="margin-top: 20px;">Theme Customization
+                            </h3>
+                            <p style="margin-top: 20px;">We offer tailored theme customization to perfectly match your
+                                brand’s unique needs. Our team creates custom layouts, design adjustments, and
+                                enhancements to make your site stand out and function seamlessly.</p>
+                        </div>
+                        <div class="box2" style="background-color: #61CE70;">
+                            <img src="/imges/box6.png" width="100" height="100" alt="img6">
+                            <h3 style="margin-top: 20px;">eCommerce Development</h3>
+                            <p style="margin-top: 20px;">We specialize in creating powerful eCommerce solutions that
+                                drive sales and enhance user experience. Our customized platforms are designed to meet
+                                your business goals and boost conversions.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 6 -->
+    <section style="background-color: #0274be; border: 1px solid #0274be;">
+        <div class="container">
+            <div class="container-fluid">
+                <div class="section6Top" id="services">
+                    <h2 class="secH2">WordPress <br> Development Services</h2>
+                    <p style="margin-top: 20px; margin-bottom: 1.75em;">Our specialized WordPress solutions include:</p>
+                </div>
+                <div class="wordpressCardTop">
+                    <div class="box1">
+                        <img src="/imges/word1.png" width="100" height="100" alt="img6">
+                        <h3 style="margin-top: 20px;">Custom WordPress Web Development</h3>
+                        <p style="margin-top: 20px;">We build tailor-made WordPress websites with unique designs and
+                            advanced features, ensuring a seamless user experience.</p>
+                    </div>
+                    <div class="box1">
+                        <img src="/imges/word2.png" width="100" height="100" alt="img6">
+                        <h3 style="margin-top: 20px;">WordPress Theme Development</h3>
+                        <p style="margin-top: 20px;">Our experts create custom WordPress themes that match your brand
+                            identity, offering a fully responsive and engaging design.</p>
+                    </div>
+                </div>
+                <div class="wordpressCardBottom">
+                    <div class="box2">
+                        <img src="/imges/word1.png" width="100" height="100" alt="img6">
+                        <h3 style="margin-top: 20px;">Custom Plugin Development</h3>
+                        <p style="margin-top: 20px;">We build tailor-made WordPress websites with unique designs and
+                            advanced features, ensuring a seamless user experience.</p>
+                    </div>
+                    <div class="box2">
+                        <img src="/imges/word2.png" width="100" height="100" alt="img6" 3>
+                        <h3 style="margin-top: 20px;">WordPress Maintenance & Support</h3>
+                        <p style="margin-top: 20px;">Our experts create custom WordPress themes that match your brand
+                            identity, offering a fully responsive and engaging design.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- section 7 -->
+    <section>
+        <div class="container">
+            <div class="container-fluid">
+                <div class="section7">
+                    <div class="left">
+                        <img src="/imges/section7img.webp" height="570" width="570" alt="section7IMG">
+                    </div>
+                    <div class="right">
+                        <h2>We've Got the <br>Experience, Expertise, <br>and Commitment You <br> Are Looking For!</h2>
+                        <p>At Web Tech, we are dedicated to empowering small and medium-sized businesses to thrive
+                            online. Our team of marketing consultants, website designers, user experience experts,
+                            developers, copywriters, graphic designers, and SEO specialists is passionate about
+                            delivering tailored solutions that meet your unique business needs.</p>
+                        <a href="/code/contact.html" target="_blank"><button type="button" class="button section7BTN">Contact
+                                now</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 8 -->
+    <div class="container">
+        <div class="container-fluid">
+            <div class="section8">
+                <div class="section8Top">
+                    <h2>Building Trust, Protecting Futures.</h2>
+                    <p>Trust is at the heart of everything we do. At ShopWebDevelopment, we specialize in delivering
+                        dependable, results- <br> driven websites that are custom-designed to meet your business
+                        objectives.</p>
+                </div>
+                <div class="section8Bottom" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="card1">
+                        <img src="/imges/mr sarvjeet.png" alt="">
+                        <p style="margin-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+                            sequi reiciendis id nostrum ratione totam quisquam ab assumenda ipsam alias reprehenderit
+                            deserunt esse nam, quaerat ullam, repudiandae corporis rem perferendis?</p>
+                        <h5 style="margin-top: 70px;">Mr.singh</h5>
+                        <img src="https://shopwebdevelopment.com/wp-content/uploads/2025/02/Group-105457-1.webp"
+                            style="margin-top: 20px;">
+                    </div>
+                    <div class="card1">
+                        <img src="/imges/circular_sarvjeetIMG.png" alt="" height="105" width="105">
+                        <p style="margin-top: 20px;">A website is your digital identity, and I help you make it
+                            memorable. With a passion for design and a focus on user experience, I create professional,
+                            responsive, and visually engaging websites that help businesses grow. </p>
+                        <h5 style="margin-top: 70px;">Sarvjeet Singh</h5>
+                        <img src="https://shopwebdevelopment.com/wp-content/uploads/2025/02/Group-105457-1.webp"
+                            style="margin-top: 20px;">
+                    </div>
+                    <div class="card1">
+                        <img src="/imges/mr sarvjeet.png" alt="">
+                        <p style="margin-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+                            sequi reiciendis id nostrum ratione totam quisquam ab assumenda ipsam alias reprehenderit
+                            deserunt esse nam, quaerat ullam, repudiandae corporis rem perferendis?</p>
+                        <h5 style="margin-top: 70px;">Mr John</h5>
+                        <img src="https://shopwebdevelopment.com/wp-content/uploads/2025/02/Group-105457-1.webp"
+                            style="margin-top: 20px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section 9 ( Accordian )-->
+    <section class="container-fluide py-5  section9">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-center fw-bold section9h2">Frequently Asked Questions</h2>
+                    <p class="text-center  section9p">Have questions? We’ve got answers! Explore our FAQs to find
+                        detailed responses to common queries about our web design and development services.</p>
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq1">
+                                    How long has WebTech been in business?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show">
+                                <div class="accordion-body" style="background-color: #EA9423;">
+                                    We have been in business for ten years, specializing in creating custom websites for
+                                    a wide range of clients across various industries.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq2">
+                                    What industries do you typically work with?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="background-color: #EA9423;">
+                                    We work with clients from diverse industries, including e-commerce, professional
+                                    services, education, real estate, healthcare, and nonprofits.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq3">
+                                    How do I get started with WebTech?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="background-color: #EA9423;">
+                                    Getting started is simple! Reach out to us via our contact page, schedule a
+                                    consultation, and we’ll guide you through the process, from idea to launch.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq4">
+                                    What types of web development services do you offer?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="background-color: #EA9423;">
+                                    At WebTech, we offer a variety of web development services tailored to meet the
+                                    unique needs of your business, including custom website design, e-commerce
+                                    solutions, CMS integration, SEO optimization, and ongoing support and maintenance.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq5">
+                                    How do I start a project with WebTech?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="background-color: #EA9423;">
+                                    Starting a project with us is easy! Simply reach out via our contact page or give us
+                                    a call. We’ll schedule a consultation to discuss your business needs, goals, and the
+                                    best strategy for your website. From there, we’ll provide a detailed proposal and
+                                    timeline to get your project underway.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq6">
+                                    Can I customize my website to suit my business needs?
+                                </button>
+                            </h2>
+                            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="background-color: #EA9423;">
+                                    Absolutely! At WebTech, we offer fully customized website solutions. Whether it’s
+                                    the design, features, or functionality, we work closely with you to ensure your
+                                    website perfectly reflects your brand and meets your business goals. From e-commerce
+                                    integration to custom plugins and more, everything can be tailored to your specific
+                                    needs.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq7">
+                                    How do I update my website or make changes?
+                                </button>
+                            </h2>
+                            <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="background-color: #EA9423;">
+                                    Updating your website is easy with WebTech! Whether you need to add new content,
+                                    update product listings, or make design changes, we provide ongoing support. Simply
+                                    reach out to our team, and we’ll assist you in making the necessary updates to keep
+                                    your site fresh and aligned with your current business goals.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq8">
+                                    What discounts or promotions do you offer?
+                                </button>
+                            </h2>
+                            <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="background-color: #EA9423;">
+                                    At WebTech, we occasionally offer special promotions and discounts on our web
+                                    development services, especially for new clients or long-term partnerships. Be sure
+                                    to check our website or contact our team for any current offers, and we’ll gladly
+                                    help you find the best deal for your project.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 10 (  input )-->
+    <div class="container">
+        <div class="container-fluid">
+            <div class="Section10" id="contact">
+                <div class="left" data-aos="flip-left" data-aos-duration="2000">
+                    <h2>Let's Discuss Your <br>Project...</h2>
+                    <form>
+                        <div class="section10name">
+                            <input type="text" placeholder="Name" class="name">
+                        </div>
+                        <div class="section10email">
+                            <input type="text" placeholder="Email" class="email">
+                        </div>
+                        <div class="section10phoneNo">
+                            <input type="number" placeholder="Phone No" class="phoneNo">
+                        </div>
+                        <div class="section10work">
+                            <select class="work">
+                                <option selected>website Maintenance</option>
+                                <option value="1">Theme Customization</option>
+                                <option value="2">eCommerce Development</option>
+                                <option value="3">UX / UL Design</option>
+                                <option value="4">Web Design</option>
+                                <option value="5">Web Development</option>
+                            </select>
+                        </div>
+                        <div class="section10pyment">
+                            <select class="pyment">
+                                <option selected>$500-$1000</option>
+                                <option value="1">$1000-$5000</option>
+                                <option value="2">$5000+</option>
+                            </select>
+                        </div>
+                        <div class="section10message">
+                            <textarea placeholder="Type Your Message" class="message"></textarea>
+                        </div>
+                        <button type="submit" class="section10Button">Submit</button>
+                    </form>
+                </div>
+                <div class="right">
+                    <img src="/imges/section10IMG.webp" height="600" width="600">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 11 ( footer )-->
+    <footer style="background-color: black;">
+        <div class="container">
+            <div class="container-fluid">
+                <div class="section11Footer">
+                    <div class="footerBox1">
+                        <img src="/imges/logo (2).png" alt="logo" height="70px">
+                        <p style="margin-top: 15px;">At WebTech, we craft custom websites <br>that drive growth with
+                            tailored Shopify,<br> WordPress, and
+                            e-commerce solutions. <br> Our team delivers responsive, user- <br>friendly designs to help
+                            your
+                            business <br> succeed online.</p>
+                        <div class="sociaIcon">
+                            <a href="#"><img src="/imges/facebook.png" height="40" width="40"></a>
+                            <a href="#"><img src="/imges/youtube.png" height="40" width="40"
+                                    style="margin-left: 10px;"></a>
+                            <a href="#"><img src="/imges/icons8-twitter-squared-48.png" height="40"
+                                    width="40" style="margin-left: 10px;"></a>
+                            <p style="margin-top: 10px;">© 2024 All Rights Reserved</p>
+                        </div>
+                    </div>
+                    <div class="footerBox2" style="list-style: none;">
+                        <h3>Quick Links</h3>
+                        <a href="#home">
+                            <li style="margin-top: 1.5rem;">Home</li>
+                        </a>
+                        <a href="#about">
+                            <li style="margin-top: 5px;">About</li>
+                        </a>
+                        <a href="/code/portfolio.html" target="_blank">
+                            <li style="margin-top: 5px;">Portfolio</li>
+                        </a>
+                        <a href="/code/contact.html" target="_blank">
+                            <li style="margin-top: 5px;">Contact Us</li>
+                        </a>
+                    </div>
+                    <div class="footerBox3" style="list-style: none;">
+                        <h3>Services</h3>
+                        <a href="#services">
+                            <li style="margin-top: 1.5rem;">Web Design & Development</li>
+                        </a>
+                    </div>
+                    <div class="footerBox4" style="list-style: none;">
+                        <h3>Contact</h3>
+                        <li style="margin-top: 1.5rem;">Phone : 91+ 8651465896</li>
+                        <li style="margin-top: 1rem;">Email : webtech01@gmail.com</li>
+                        <li style="margin-top: 1rem;">Address : Dwarka , New Delhi , 110045</li>
+                        <p>Privacy Policy</p>
+                    </div>
+                    <div class="footerBox5" style="list-style: none;">
+                        <a href="#nav"><img src="/imges/top_icon.png" alt="tomICON"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,633 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+.Navbtn {
+    border: 2px solid red !important;
+    color: #ffffff !important;
+    padding: 2px 25px !important;
+}
+
+.Navbtn:hover {
+    border: 2px solid red !important;
+    background-color: red !important;
+    transition: 0.2s ease-in;
+}
+
+.section2 {
+    display: flex;
+}
+
+.section2Left h2 {
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 55px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-top: 10rem;
+}
+
+.section2Left p {
+    color: #FFFFFF;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.section2Left button {
+    cursor: pointer;
+    padding: 7px 30px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: #FFFFFF;
+    background-color: #252424;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition-duration: 0.6s;
+    margin-top: 1rem;
+}
+
+.section2Left button:hover {
+    background-color: #198754;
+}
+
+.disktop_Frame {
+    position: relative;
+    left: 130px;
+    width: 500px;
+    height: 400px;
+    background: url(/imges/laptop.png) no-repeat center center;
+    background-size: contain;
+}
+
+.disktop_screen {
+    border-radius: 10px;
+    position: absolute;
+    left: 2.8%;
+    top: 8%;
+    width: 93.5%;
+    height: 73%;
+    overflow: hidden;
+
+}
+
+.disktop_screen img {
+    width: 107%;
+    height: 102%;
+    object-fit: contain;
+}
+
+.Phone_frame {
+    position: relative;
+    width: 150px;
+    height: 260px;
+    background: url(/imges/mobile_frame.png) no-repeat center center;
+    background-size: cover;
+    bottom: 120px;
+    left: 450px;
+}
+
+.phone_screen {
+    position: absolute;
+    left: 1.5%;
+    top: 2px;
+    width: 96.9%;
+    height: 98%;
+    overflow: hidden;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.phone_screen img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    position: absolute;
+}
+
+/*end  home */
+
+
+
+.section3left h2 {
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    color: #2D2828;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+}
+
+.section3left p {
+    margin-bottom: 1.75em;
+    color: #2D2828;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.mission,
+.vision {
+    border: none !important;
+    height: 250px !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.missionBtn,
+.visionBtn {
+    background-color: #EA9423 !important;
+    font-family: "Red Hat Display", Sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    border-radius: 20px 20px 20px 20px !important;
+    border: none !important;
+    margin-top: 10px;
+}
+
+.missionh5,
+.visionh5 {
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #2D2828;
+    margin-top: 10px;
+}
+
+.missionp,
+.missionp {
+    border: 0;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin-top: 10px;
+}
+
+.right img {
+    width: 100%;
+    margin-top: 3.75em;
+}
+
+.sec3 {
+    margin-bottom: 50px;
+}
+
+.section4 {
+    background-color: #EA9423;
+
+
+}
+
+.section4 h2 {
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #2D2828;
+    margin-top: 15rem;
+    margin-bottom: 1rem;
+
+}
+
+.section4 p {
+    color: #2D2828;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 2.75em;
+
+}
+
+.section4 button {
+    cursor: pointer;
+    padding: 7px 30px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: #FFFFFF;
+    background-color: #252424;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition-duration: 0.6s;
+
+}
+
+.section4 button:hover {
+    background-color: #EA9423;
+    ;
+    border: 1px solid black;
+    color: black;
+}
+
+.section4card1IMG {
+    margin-top: 55px !important;
+
+
+}
+
+.section4Right {
+    margin-top: 70px !important;
+    padding-left: 100px !important;
+    margin-bottom: 3rem !important;
+}
+
+.section4Card1 {
+    padding: 0 2rem !important;
+}
+
+.boderRadius {
+    border-radius: 20px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    transition: 0.3s ease-in;
+
+}
+
+.boderRadius:hover {
+    background-color: #2B7C9A;
+}
+
+.Section5top {
+    margin-top: 50px;
+}
+
+.Section5top h2 {
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #2D2828;
+
+}
+
+.Section5top p {
+    margin-bottom: 1.75em;
+    margin-top: 30px;
+    color: #2D2828;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.bottomTop .box1 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 40px 20px 40px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: "Red Hat Display", Sans-serif;
+    font-weight: 400;
+
+}
+
+.bottomTop,
+.bottomBottom {
+    display: flex;
+}
+
+.bottomBottom .box2 {
+    padding: 40px 20px 40px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 20px;
+    margin-right: 18px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: "Red Hat Display", Sans-serif;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.section6Top {
+    margin-top: 50px;
+
+}
+
+.section6Top .secH2 {
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0 35px;
+    margin-top: 50px !important;
+
+}
+
+.section6Top p {
+    color: #fff;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0 35px;
+}
+
+.wordpressCardTop,
+.wordpressCardBottom {
+    display: flex;
+}
+
+.wordpressCardTop .box1 {
+    background-color: #fff;
+    padding: 40px 20px 40px 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    margin: 0 35px;
+    transition: 0.6s ease;
+
+}
+
+.wordpressCardTop .box1:hover {
+    background-color: #0274be;
+    color: #fff;
+
+}
+
+.wordpressCardBottom .box2 {
+    background-color: #fff;
+    padding: 40px 20px 40px 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    margin: 20px 35px;
+    transition: 0.6s ease;
+    margin-bottom: 3rem;
+}
+
+.wordpressCardBottom .box2:hover {
+    background-color: #0274be;
+    color: #fff;
+
+}
+
+.section7 {
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.section7 h2 {
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #2D2828;
+    line-height: 1.3em;
+    margin-left: 50px;
+}
+
+.section7 p {
+    color: #2D2828;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.section7BTN {
+    cursor: pointer;
+    padding: 7px 30px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: #FFFFFF;
+    background-color: #252424;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    transition-duration: 0.6s;
+}
+
+.section7BTN:hover {
+    background-color: #FFF;
+    ;
+    border: 1px solid black;
+    color: black;
+
+}
+
+.section8 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.section8Top h2 {
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #2D2828;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+.section8Top p {
+    color: #2D2828;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.section8Bottom {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.section8Bottom .card1 {
+    margin-top: 5rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 40px 30px 50px 30px;
+    margin: 0 30px;
+    cursor: pointer;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.section9 {
+    background-color: #EA9423 !important;
+}
+
+.section9h2 {
+    color: #FFF !important;
+    font-family: "Red Hat Display", Sans-serif !important;
+    font-size: 50px !important;
+    font-weight: 700 !important;
+    line-height: 1.3em !important;
+}
+
+.section9p {
+    color: #fff !important;
+    font-family: "Red Hat Display", Sans-serif !important;
+    font-size: 17px !important;
+    font-weight: 500 !important;
+    margin-top: 20px !important;
+
+}
+
+/**/
+
+.Section10 {
+    margin-top: 3rem;
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+::placeholder {
+    color: #FFF;
+    opacity: 1;
+    /* Firefox */
+}
+
+::-ms-input-placeholder {
+    /* Edge 12-18 */
+    color: #FFF;
+}
+
+.Section10 h2 {
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.3em;
+    margin-top: 2rem;
+
+}
+
+.Section10 .left {
+    background-color: #2B7C9A;
+    margin-left: 40px;
+    padding: 0 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.name,
+.email,
+.phoneNo {
+    padding: 10px 250px 10px 10px;
+    margin: 10px;
+    background-color: #2B7C9A;
+    color: #fff;
+    border-bottom: 1px dotted white;
+    border-left: 1px solid #2B7C9A;
+    border-right: 1px solid #2B7C9A;
+    border-top: 1px solid #2B7C9A;
+}
+
+.work {
+    padding: 10px 229px 10px 10px;
+    margin: 10px;
+    background-color: #2B7C9A;
+    color: #fff;
+    border-bottom: 1px dotted white;
+    border-left: 1px solid #2B7C9A;
+    border-right: 1px solid #2B7C9A;
+    border-top: 1px solid #2B7C9A;
+
+}
+
+.pyment {
+    padding: 10px 320px 10px 10px;
+    margin: 10px;
+    background-color: #2B7C9A;
+    color: #fff;
+    border-bottom: 1px dotted white;
+    border-left: 1px solid #2B7C9A;
+    border-right: 1px solid #2B7C9A;
+    border-top: 1px solid #2B7C9A;
+}
+
+.message {
+    padding: 10px 270px 50px 10px;
+    margin: 10px;
+    background-color: #2B7C9A;
+    color: #fff;
+    border-bottom: 1px dotted white;
+    border-left: 1px solid #2B7C9A;
+    border-right: 1px solid #2B7C9A;
+    border-top: 1px solid #2B7C9A;
+}
+
+.section10Button {
+    padding: 7px 40px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    transition: 0.3s ease-in;
+    margin-top: 10px;
+    margin-right: 300px;
+    margin-bottom: 1rem;
+}
+
+.section10Button:hover {
+    background-color: #2B7C9A;
+}
+
+.section11Footer {
+    display: flex;
+    color: #fff;
+}
+
+.footerBox1,
+.footerBox2,
+.footerBox3,
+.footerBox4 {
+    padding: 80px 30px 20px 50px;
+}
+
+.footerBox2 a {
+    list-style: none;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.footerBox3 a {
+    color: #FFF;
+    text-decoration: none;
+
+}
+
+.sociaIcon img {
+    margin-top: 3rem;
+    transition: 0.4s ease-in;
+}
+
+.footerBox4 p {
+    margin-top: 10.80rem;
+    margin-left: 10rem;
+
+}
+
+.sociaIcon img:hover {
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.footerBox5 img {
+    margin-top: 23.50rem;
+    transition: 0.5s ease-in;
+}
+
+.footerBox5 img:hover {
+    border: 3px solid white;
+    border-radius: 50px;
+    background-color: black;
+
+}

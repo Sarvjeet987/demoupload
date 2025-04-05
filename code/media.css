@@ -1,0 +1,191 @@
+@media (min-width:679px) and (max-width:1422px) {
+
+    .missioncard,
+    .visitioncard {
+        /* flex: 0 0 auto; */
+        width: 100% !important;
+        margin-top: 35px !important;
+    }
+
+    .col-md-6 {
+        /* flex: 0 0 auto; */
+        width: 100% !important;
+    }
+
+
+}
+
+@media (min-width:200px) and (max-width:983px) {
+    .section4Right {
+
+        padding-left: 5px !important;
+
+    }
+
+    .section4 h2 {
+
+        margin-top: 4rem;
+
+    }
+
+    .bottomTop,
+    .bottomBottom {
+        flex-wrap: wrap;
+    }
+
+    .bottomBottom .box2 {
+        width: 100%;
+        margin-right: 12px;
+        margin-left: 8px;
+    }
+
+    .bottomTop .box1 {
+        width: 100%;
+        margin-top: 35px;
+
+    }
+
+    .wordpressCardTop,
+    .wordpressCardBottom {
+        flex-wrap: wrap;
+    }
+
+    .wordpressCardTop .box1 {
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .wordpressCardBottom .box2 {
+        width: 100%;
+
+    }
+
+    .section7 {
+        flex-wrap: wrap;
+    }
+
+    .section7 .left {
+        width: 100%;
+    }
+
+    .section7 .right {
+        width: 100%;
+    }
+
+    .section7 img {
+        height: 300px !important;
+        width: 300px !important;
+
+    }
+
+    .section7 h2 {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .section7 p {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .section8Bottom {
+        flex-wrap: wrap;
+    }
+
+    .section8Bottom .card1 {
+        margin-top: 20px;
+    }
+
+    .Section10 {
+        flex-wrap: wrap;
+    }
+
+    .Section10 .left {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .Section10 .right img {
+        /* width: 100%; */
+        height: 400px !important;
+        width: 435px !important;
+    }
+
+    .name,
+    .email,
+    .phoneNo {
+        padding: 10px 4px 10px 10px;
+    }
+
+    .work {
+        padding: 10px 0px 10px 10px;
+
+    }
+
+    .pyment {
+        padding: 10px 80px 10px 10px;
+
+    }
+
+    .message {
+        padding: 10px 49px 50px 10px
+
+    }
+
+    .section11Footer {
+        flex-wrap: wrap;
+    }
+
+    .footerBox1,
+    .footerBox2,
+    .footerBox3,
+    .footerBox4 {
+        width: 100%;
+        padding: 80px 0px 20px 9px;
+    }
+
+    .footerBox5 img {
+        width: 100%;
+    }
+
+    .footerBox5 img {
+        margin-top: 0.5rem;
+    }
+
+    .footerBox4 p {
+        margin-top: 2.8rem;
+        margin-left: 0rem;
+    }
+
+
+}
+
+@media (min-width:200px) and (max-width:1355px) {
+    .section2 {
+        flex-wrap: wrap;
+    }
+
+    .disktop_Frame {
+
+        left: 0px;
+    }
+
+}
+
+@media (min-width:200px) and (max-width:550px) {
+    .Phone_frame {
+
+        left: 0px;
+    }
+
+    .disktop_Frame {
+
+        width: 333px;
+
+    }
+
+    .disktop_screen img {
+
+        height: 105%;
+    }
+}
